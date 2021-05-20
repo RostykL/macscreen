@@ -8,7 +8,6 @@ import {
   JustWrapper,
 } from "./ingridientstyled";
 
-import { BurgerContext } from "../../context/burgerContext";
 
 export default function Index({ text, initValue, add, ...props }) {
   let [number, setNumber] = useState(initValue);

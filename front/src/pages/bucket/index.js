@@ -54,7 +54,7 @@ export default function Index() {
                   />
                 );
               }
-              if(burger)
+              if(burger.cost > 0)
               return (
                 <Burger
                   key={burger.id}
