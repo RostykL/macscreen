@@ -1,0 +1,244 @@
+{
+  "toppings": [
+    { "id": 1, "name": "цибуля", "quantity": 0, "cost": 15 },
+    { "id": 2, "name": "огірок", "quantity": 0, "cost": 10 },
+    { "id": 3, "name": "креветки", "quantity": 0, "cost": 25 },
+    { "id": 4, "name": "сир", "quantity": 0, "cost": 15 },
+    { "id": 5, "name": "бекон", "quantity": 0, "cost": 30 },
+    {
+      "id": 10,
+      "name": "верхня булка",
+      "quantity": 0,
+      "max": 1,
+      "cost": 20
+    },
+    { "id": 6, "name": "нижня була", "quantity": 0, "max": 1, "cost": 20 },
+    { "id": 7, "name": "чорна верхня була", "quantity": 0, "max": 1, "cost": 20 },
+    { "id": 8, "name": "чорна нижня була", "quantity": 0, "max": 1, "cost": 20 },
+    { "id": 9, "name": "помідори", "quantity": 0, "cost": 15 }
+
+  ],
+  "burgers": [
+    {
+      "id": 1,
+      "name": "Біг мак",
+      "cost": 140,
+      "consists_of": [
+        { "id": 2, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 3, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "сир", "quantity": 1, "cost": 15 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Чізбургер",
+      "cost": 89,
+      "consists_of": [
+        { "id": 1, "name": "огірок", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "сир", "quantity": 1, "cost": 15 },
+        {
+          "id": 3,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 4, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Дабл Чікен Кентукі",
+      "cost": 67,
+      "consists_of": [
+        { "id": 1, "name": "бекон", "quantity": 1, "cost": 30 },
+        { "id": 2, "name": "сир", "quantity": 1, "cost": 15 },
+        {
+          "id": 3,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 4, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Житній зі свининою та соусом з хріном",
+      "cost": 115,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        {
+          "id": 3,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 4, "name": "тижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Житній з куркою та часниковим соусом",
+      "cost": 55,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "тижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Дабл Чізбургер",
+      "cost": 99,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "тижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Роял Чізбургер",
+      "cost": 90,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Дабл Роял Чізбургер",
+      "cost": 111,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Біг Тейсті",
+      "cost": 100,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Гамбургер",
+      "cost": 25,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Дабл Роял Чізбургер",
+      "cost": 69,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "МакЧікен",
+      "cost": 225,
+      "consists_of": [
+        { "id": 1, "name": "цибуля", "quantity": 1, "cost": 10 },
+        { "id": 2, "name": "помідори", "quantity": 1, "cost": 15 },
+        { "id": 3, "name": "сир", "quantity": 1, "cost": 15 },
+        { "id": 4, "name": "бекон", "quantity": 1, "cost": 30 },
+        {
+          "id": 5,
+          "name": "верхня булка",
+          "quantity": 1,
+          "max": 1,
+          "cost": 20
+        },
+        { "id": 6, "name": "нижня була", "quantity": 1, "max": 1, "cost": 20 }
+      ]
+    }
+  ]
+}
